@@ -4,39 +4,68 @@
 <head>
   <meta charset="UTF-8">
   <title>Pick Our Next Adventure</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-      max-width: 700px;
-      margin: auto;
-      padding: 2rem;
-    }
-    h1, h2 {
-      color: #38bdf8;
-    }
-    label {
-      display: block;
-      margin: 0.4rem 0;
-      cursor: pointer;
-    }
-    button {
-      margin-top: 1.5rem;
-      padding: 0.7rem 1.2rem;
-      background: #38bdf8;
-      border: none;
-      color: #0f172a;
-      font-size: 1rem;
-      cursor: pointer;
-      border-radius: 6px;
-    }
-  </style>
+ <style>
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1f2933, #2d1b69);
+    color: #e5e7eb;
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem;
+  }
+
+  h1 {
+    color: #6ee7b7; /* soft green */
+  }
+
+  h2 {
+    color: #93c5fd; /* light blue */
+  }
+
+  p {
+    color: #fbcfe8; /* light pink */
+    line-height: 1.6;
+  }
+
+  label {
+    display: block;
+    margin: 0.4rem 0;
+    cursor: pointer;
+  }
+
+  a {
+    color: #c4b5fd; /* purple */
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  button {
+    margin-top: 1.5rem;
+    padding: 0.7rem 1.2rem;
+    background: #6ee7b7; /* green */
+    border: none;
+    color: #1f2933;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+
+  button:hover {
+    background: #93c5fd; /* blue */
+  }
+</style>
+
 </head>
 <body>
 
 <h1>Help Me Pick Our Next Hangout</h1>
 <p>Be honest. This directly affects our plans.</p>
+<p>
+  I’ve really enjoyed getting to know you, and I’m hoping these date ideas give us a better chance to spend time together, get to know each other more, and have some fun along the way.
+</p>
 
 <form action="https://formspree.io/f/maqdwnpo" method="POST">
 
