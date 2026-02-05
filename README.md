@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -51,13 +52,12 @@
 <label><input type="checkbox" name="fun" value="Rage Room"> Rage Room</label>
 <label><input type="checkbox" name="fun" value="Trampoline Park"> Trampoline Park</label>
 <label><input type="checkbox" name="fun" value="Old Town Walk"> Old Town Walk</label>
-<label><input type="checkbox" name="fun" value="Live Sports"> Live Sports Game</label>
+
 
 <h2>Entertainment</h2>
 <label><input type="checkbox" name="entertainment" value="Movie Night"> Movie / Indie Theater</label>
 <label><input type="checkbox" name="entertainment" value="Live Music"> Live Music</label>
 <label><input type="checkbox" name="entertainment" value="Comedy Show"> Comedy Show</label>
-<label><input type="checkbox" name="entertainment" value="KiMo Theatre"> KiMo Theatre</label>
 <label><input type="checkbox" name="entertainment" value="BioPark Evening"> BioPark Evening Event</label>
 
 <h2>Creative / Artistic</h2>
